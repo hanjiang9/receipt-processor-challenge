@@ -12,7 +12,7 @@ This is a simple web service for processing receipts and calculating points base
 ### Prerequisites
 
 - Docker
-- Go 1.21 (if running locally without Docker)
+- Go 1.21 
 
 ### Running with Docker
 
