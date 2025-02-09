@@ -1,7 +1,5 @@
 # receipt-processor-challenge
 
-# Receipt Processor API
-
 This is a simple web service for processing receipts and calculating points based on specific rules. The service provides endpoints to process receipts and retrieve points for a given receipt ID.
 
 ## Features
@@ -41,7 +39,7 @@ This is a simple web service for processing receipts and calculating points base
 - **Response**: JSON object containing the unique receipt ID.
 
 **Request Example**:
-json
+```json
 {
 "retailer": "Target",
 "purchaseDate": "2022-01-01",
@@ -70,8 +68,9 @@ json
 ],
 "total": "35.35"
 }
+
 **Response Example**:
-json
+```json
 {
 "id": "7cdc04a3-d917-4131-bd80-64b56bdaf742"
 }
@@ -82,7 +81,7 @@ json
 - **Response**: JSON object containing the points for the receipt.
 
 **Response Example**:
-json
+```json
 {
 "points": 28
 }
