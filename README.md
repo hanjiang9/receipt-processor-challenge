@@ -68,13 +68,14 @@ This is a simple web service for processing receipts and calculating points base
 ],
 "total": "35.35"
 }
+```
 
 **Response Example**:
 ```json
 {
 "id": "7cdc04a3-d917-4131-bd80-64b56bdaf742"
 }
-
+```
 #### GET `http://localhost:8080/receipts/{id}/points`
 
 - **Description**: Retrieves the points for a specific receipt ID.
@@ -85,3 +86,4 @@ This is a simple web service for processing receipts and calculating points base
 {
 "points": 28
 }
+```
